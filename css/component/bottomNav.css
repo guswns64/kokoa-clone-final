@@ -1,0 +1,26 @@
+.bottomNav_div {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+
+.bottomNav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 30px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.bottomNav div {
+  width: 30px;
+  text-align: center;
+  padding: 10px;
+}
+
+.bottomNav a,
+.bottomNav a:link,
+.bottomNav a:visited {
+  color: black;
+  text-decoration: underline;
+}

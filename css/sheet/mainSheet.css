@@ -1,0 +1,90 @@
+.headerNavBar {
+  margin-bottom: 20px;
+}
+.headerNavBar div:first-child span {
+  font-family: var(--mainFont);
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.headerNavBar div:last-child span {
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+.headerNavBar div:last-child span:not(last-child) {
+  margin-right: 20px;
+}
+
+.mainSheetTitle {
+  font-family: var(--mainFont);
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.mainSheetTitle {
+  margin-bottom: 20px;
+}
+.mainSheetTitle span:nth-child(2) {
+  color: rgba(0, 0, 0, 0.7);
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.mainSheet_div_Margin {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.channelTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.channelTitle span {
+  margin: 0px 20px;
+}
+
+.channelImg img {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.channelName {
+  font-family: var(--mainFont);
+  font-weight: 600;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.channelInfo {
+  position: relative;
+}
+
+.channelInfo div:last-child {
+  position: absolute;
+  right: 0px;
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 12px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 5px;
+}
+
+.channelInfo div:last-child span:last-child {
+  margin-left: 5px;
+}

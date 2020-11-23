@@ -1,0 +1,24 @@
+.topNavBar ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.topNavBar ul li {
+  width: 33%;
+  text-align: center;
+  margin-top: 3px;
+}
+
+.topNavBar ul li:last-child {
+  text-align: right;
+  margin-right: 20px;
+}
+
+.topNavBar ul li:first-child span:first-child {
+  margin-right: 5px;
+}
+
+.topNavBar ul li:last-child span:last-child {
+  margin-left: 5px;
+}

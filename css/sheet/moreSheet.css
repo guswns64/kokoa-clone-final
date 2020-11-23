@@ -1,0 +1,86 @@
+.moreProfileInfo {
+  position: relative;
+}
+
+.moreProfileInfo__name {
+  margin-bottom: 5px;
+}
+
+.moreProfileInfo div:last-child {
+  position: absolute;
+  right: 10px;
+  font-size: 25px;
+  color: rgba(0, 0, 0, 0.6);
+  margin-right: 10px;
+}
+
+.moreProfileInfo__phone {
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.moreProfileInfo__phone i {
+  color: rgba(255, 0, 0, 0.4);
+  margin-left: 3px;
+}
+
+.invisible {
+  visibility: collapse;
+}
+
+.btnContainer_btn {
+  cursor: pointer;
+}
+
+.suggestions_view {
+  margin-left: 20px;
+}
+
+.suggestions_view__title {
+  font-family: var(--MainFont);
+  font-size: 15px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+}
+
+.suggestions_view__btns {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.suggestions_view__btns div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 13px;
+  border: rgba(0, 0, 0, 0.05) 1px solid;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.suggestions_view__btns div:hover {
+  cursor: pointer;
+}
+
+.suggestions_view__btns i {
+  font-size: 35px;
+}
+
+.suggestions_view__btns div span:first-child {
+  margin-bottom: 5px;
+}
+
+.suggestions_view__btns div span:last-child {
+  font-size: 12px;
+  font-family: var(--MainFont);
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 500;
+}
+
+a:link,
+a:visited {
+  text-decoration: none !important;
+}

@@ -1,0 +1,27 @@
+.btnContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+.btnContainer_btn {
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.btnContainer_btn span:first-child {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.btnContainer_btn span:last-child {
+  font-family: var(--mainFont);
+  font-weight: 600;
+  font-size: 15px;
+  margin-bottom: 5px;
+  color: var(--FontColor);
+}

@@ -1,0 +1,107 @@
+@keyframes scaleAni {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.scaleAni {
+  animation: scaleAni 1s linear infinite;
+}
+
+@keyframes backgroundAni {
+  0% {
+    background-color: none;
+  }
+  50% {
+    background-color: red;
+  }
+  100% {
+    background-color: none;
+  }
+}
+
+.backgroundAni {
+  animation: backgroundAni 1s linear infinite;
+}
+
+@keyframes hoverScaleAni {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.5);
+    color: red;
+    opacity: 0.8;
+  }
+}
+
+.hoverScaleAni:hover {
+  animation: hoverScaleAni 0.1s linear forwards;
+}
+
+@keyframes hoverScaleAnipersnal {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.2);
+  }
+}
+
+.hoverScaleAnipersnal:hover {
+  animation: hoverScaleAnipersnal 0.2s linear forwards;
+}
+
+@keyframes rotateAni {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.rotateAni {
+  animation: rotateAni 1s linear infinite;
+}
+
+@keyframes rotateXAni {
+  0% {
+    transform: rotateX(0deg);
+  }
+  50% {
+    transform: rotateX(180deg);
+  }
+  100% {
+    transform: rotateX(360deg);
+  }
+}
+
+.rotateXAni {
+  animation: rotateXAni 1s linear infinite;
+}
+
+@keyframes rotateScaleAni {
+  0% {
+    transform: rotateX(0deg) scale(1);
+  }
+  50% {
+    transform: rotateX(360deg) scale(5);
+  }
+  100% {
+    transform: rotateX(0deg) scale(1);
+  }
+}
+
+.rotateScaleAni {
+  animation: rotateScaleAni 0.5s linear infinite;
+}

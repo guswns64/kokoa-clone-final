@@ -1,0 +1,64 @@
+.loginTitle {
+  font-family: var(--mainFont);
+  font-weight: bolder;
+  font-size: 18px;
+  text-align: center;
+  margin: 70px 20px 20px 20px;
+}
+
+.loginDescription {
+  font-family: var(--mainFont);
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+  color: var(--FontColor);
+  margin: 20px 20px 70px 20px;
+}
+
+.loginInput,
+.loginBtn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 20px 20px 20px;
+}
+
+.loginInput input {
+  width: 100%;
+  padding: 0px 10px 0px 10px;
+  height: 50px;
+  border: none;
+  border-bottom: rgba(0, 0, 0, 0.2) 1px solid;
+  font-family: var(--mainFont);
+  font-weight: bolder;
+  font-size: 14px;
+  color: var(--FontColor);
+}
+
+.loginInput input::placeholder {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.loginBtn a {
+  width: 100%;
+}
+
+.loginBtn a button {
+  width: 100%;
+  border: none;
+  height: 40px;
+  margin-top: 10px;
+  font-family: var(--mainFont);
+  font-weight: bolder;
+  font-size: 14px;
+}
+
+.findAccount {
+  font-family: var(--mainFont);
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+  color: var(--FontColor);
+  margin: 20px 20px 70px 20px;
+}

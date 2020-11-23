@@ -1,0 +1,121 @@
+.recommended_friend_view {
+  font-family: var(--mainFont);
+  font-weight: 600;
+  font-size: 13px;
+  color: var(--FontColor);
+  padding: 0px 10px 10px 10px;
+}
+
+.recommended_friend_view__description {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.openChat_view__main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: var(--mainFont);
+  font-weight: 600;
+  font-size: 13px;
+  color: var(--FontColor);
+}
+
+.searchSheet_div_Margin {
+  margin-bottom: 10px;
+}
+
+.openChat_view__main__title span:first-child {
+  margin-left: 10px;
+}
+.openChat_view__main__link {
+  color: rgba(0, 0, 0, 0.3);
+}
+.openChat_view__main__link span:last-child {
+  margin-left: 5px;
+  margin-right: 10px;
+}
+
+.openChatContent_div {
+  margin-top: 15px;
+  height: 174px;
+  scroll-behavior: inherit;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.openChatContent {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 5px;
+  box-sizing: border-box;
+}
+
+.openChatContent__text {
+  font-family: var(--mainFont);
+}
+
+.openChatContent__text div:nth-child(1) {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.openChatContent__text div:nth-child(2) {
+  font-size: 13px;
+  color: var(--FontColor);
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.openChatContent__text div:nth-child(3) {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 11px;
+  color: var(--FontColor);
+  font-weight: 600;
+}
+
+.openChatContent__text div:nth-child(3) span:first-child {
+  margin-right: 3px;
+  margin-left: -3px;
+}
+
+.openChatContent__text div:nth-child(3) span:last-child {
+  color: rgba(255, 0, 0, 0.7);
+}
+
+.openChatContent__text__division {
+  width: 3px;
+  height: 11px;
+  background-color: var(--FontColor);
+  display: inline-block;
+  margin: 0px 3px;
+}
+
+.openChatContent__img {
+  position: relative;
+}
+
+.openChatContent__img img {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.openChatContent__img span:nth-child(2) {
+  position: absolute;
+  right: 3px;
+  bottom: 5px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 5px;
+  border-radius: 15px;
+}

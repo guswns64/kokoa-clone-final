@@ -1,0 +1,23 @@
+.profileInfo {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.profileInfo span:first-child {
+  margin-right: 10px;
+}
+
+.profileInfo__name {
+  font-family: var(--mainFont);
+  font-weight: 600;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.profileInfo__img img {
+  width: 50px;
+  height: 50px;
+  border-radius: 20px;
+  object-fit: cover;
+}

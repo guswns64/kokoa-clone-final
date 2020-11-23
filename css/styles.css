@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&family=Anton&family=Domine&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+@import url("reset.css");
+@import url("animation.css");
+/* component */
+@import url("component/topNavBar.css");
+@import url("component/headerNavBar.css");
+@import url("component/profile.css");
+@import url("component/bottomNav.css");
+@import url("component/division.css");
+@import url("component/btnContainer.css");
+
+/* sheet */
+@import url("sheet/loginSheet.css");
+@import url("sheet/mainSheet.css");
+@import url("sheet/chatListSheet.css");
+@import url("sheet/searchSheet.css");
+@import url("sheet/moreSheet.css");
+@import url("sheet/settingSheet.css");
+@import url("sheet/chatSheet.css");
+
+:root {
+  --MainFont: "Roboto", sans-serif;
+  --FontColor: rgba(0, 0, 0, 0.5);
+}
+
+body {
+  position: relative;
+  width: 400px;
+  height: 600px;
+}
+
+button:focus {
+  outline: 0;
+}
+
+button:active {
+  transform: scale(0.9);
+  transition: all 0.1s linear;
+}
+
+input:focus {
+  outline: 0;
+}
+
+a:link,
+a:visited {
+  text-decoration: none !important;
+}

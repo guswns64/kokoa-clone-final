@@ -1,0 +1,24 @@
+.headerNavBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headerNavBar {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.headerNavBar div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.headerNavBar div:first-child {
+  margin-left: 20px;
+}
+
+.headerNavBar div:last-child {
+  margin-right: 0px;
+}

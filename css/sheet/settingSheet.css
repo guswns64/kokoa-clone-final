@@ -1,0 +1,61 @@
+.settingView {
+  padding: 10px;
+  height: 470px;
+  box-sizing: border-box;
+  scroll-behavior: inherit;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.settingView__list {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.settingView .settingView__list:last-child {
+  margin-bottom: 10px;
+}
+
+.settingView__list__icon {
+  width: 50px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.settingView__list__name {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 600;
+}
+
+.settingView__list__name {
+  display: flex;
+  align-items: center;
+}
+
+.settingView__list__name .noticeIcon {
+  color: white;
+  font-size: 5px;
+  width: 15px;
+  height: 15px;
+  background-color: red;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5px;
+}
+
+.settingView__list__addDescription {
+  position: absolute;
+  right: 20px;
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.3);
+  font-weight: 600;
+}
+
+.settingSheet_div_Margin {
+  margin-bottom: 20px;
+}

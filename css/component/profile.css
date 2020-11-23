@@ -1,0 +1,29 @@
+.profileInfo {
+  display: flex;
+  align-items: center;
+}
+
+.profileInfo div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.profileInfo div:first-child {
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+.profileInfo__name {
+  font-family: var(--mainFont);
+  font-weight: 600;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.profileInfo__img img {
+  width: 50px;
+  height: 50px;
+  border-radius: 20px;
+  object-fit: cover;
+}
